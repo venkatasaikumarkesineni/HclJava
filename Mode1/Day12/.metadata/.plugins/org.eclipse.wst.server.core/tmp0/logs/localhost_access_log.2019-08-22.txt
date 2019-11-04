@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Aug/2019:17:52:35 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [22/Aug/2019:17:52:36 +0530] "GET /SystemManagement/Firstservlet HTTP/1.1" 200 58
+0:0:0:0:0:0:0:1 - - [22/Aug/2019:17:52:42 +0530] "GET /SystemManagement/SecondServlet HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [22/Aug/2019:17:52:45 +0530] "GET /SystemManagement/ThirdServlet HTTP/1.1" 200 38
+0:0:0:0:0:0:0:1 - - [22/Aug/2019:17:53:44 +0530] "GET /SystemManagement/Name.html HTTP/1.1" 200 324
+0:0:0:0:0:0:0:1 - - [22/Aug/2019:17:53:49 +0530] "GET /SystemManagement/Firstservlet?sname=sai HTTP/1.1" 200 57

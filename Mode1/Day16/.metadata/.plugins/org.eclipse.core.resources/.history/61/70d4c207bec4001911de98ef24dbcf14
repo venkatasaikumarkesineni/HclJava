@@ -1,0 +1,6 @@
+package com.hcl.bank;
+
+public class WithDrawAccount {
+  private int accno;
+  private int withdraw;
+}

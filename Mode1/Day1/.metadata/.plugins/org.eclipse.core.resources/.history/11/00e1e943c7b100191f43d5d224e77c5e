@@ -1,0 +1,16 @@
+package com.hcl.java;
+
+public class CtoK {
+	public calc(double c)
+	{
+		double k;
+		k=273+c;
+		System.out.println(k);
+		
+	}
+public static void main(String[] args) {
+  double c=33;
+  Ctok obj=new CtoK();
+  obj.calc(c);
+}
+}

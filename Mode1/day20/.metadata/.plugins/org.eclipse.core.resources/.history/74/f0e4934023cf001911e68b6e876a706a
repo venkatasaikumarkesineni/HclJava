@@ -1,0 +1,11 @@
+package com.hcl.college;
+
+import org.hibernate.Session;
+
+public class SubjectCrude {
+	public static String insertSubject(){
+		Session s=HibernateUtil.getConnection();
+		
+	}
+
+}

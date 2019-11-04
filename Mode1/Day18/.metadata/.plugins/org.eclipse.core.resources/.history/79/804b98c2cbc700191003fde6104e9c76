@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="CreateAccount.jsp"/>
+  <center>
+     First name:
+     <input type="text" name="firstName"/><br/><br/>
+     Last Name:
+     city:
+     state:
+     amount:
+     cheqfacility:
+     Account Type:
+  </center>
+</form>
+
+</body>
+</html>

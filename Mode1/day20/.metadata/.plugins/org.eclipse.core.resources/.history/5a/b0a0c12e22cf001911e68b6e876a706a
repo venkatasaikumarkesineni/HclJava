@@ -1,0 +1,10 @@
+package com.hcl.college;
+
+import org.hibernate.SessionFactory;
+
+public class HibernateUtil {
+  public static SessionFactory getConnection(){
+	  
+  }
+
+}

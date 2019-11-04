@@ -1,0 +1,30 @@
+package com.hcl.inventory;
+
+import static org.junit.Assert.*;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.junit.Test;
+
+
+public class InventoryTestCase {
+
+	
+	@Test
+	public void testGettersAndSetters(){
+		Inventory objInventory=new Inventory();
+		objInventory.setStockid("S00");
+		objInventory.setPrice(200);
+		objInventory.setQuantityAvail(4);
+		objInventory.setItemName("pen");
+		
+		assertEquals("S00",objInventory.getStockid());
+		assertEquals(200,objInventory.getPrice());
+		assertEquals(4,objInventory.getQuantityAvail());
+		assertEquals("pen",objInventory.getItemName());
+	}
+}
+

@@ -1,0 +1,26 @@
+package com.hcl.java;
+
+public class StringBuilder1 {
+	public void show(int age,String name)
+	{
+		StringBuilder  StringBuilder1=new StringBuilder();
+		boolean isvalid=true;
+		if(age<=20)
+		{
+			StringBuilder1.append("age be greater than 20"+"\r\n")
+		isvalid=false;
+		}
+			System.out.println("age is "+ age);
+		System.out.println("name is " + name);
+	}
+	public static void main(String[] args) {
+		int age;
+		String name;
+		age=11;
+		name="sai";
+StringBuilder1 obj=new StringBuilder1();
+		obj.show(age,name);
+		
+	}
+
+}

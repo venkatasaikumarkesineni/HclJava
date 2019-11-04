@@ -1,0 +1,23 @@
+package com.hcl.bank;
+
+import java.util.Scanner;
+
+public class SearchAccountMain {
+	public static void main(String[] args) {
+		int accountNo;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the account number");
+		accountNo=sc.nextInt();
+		Accounts objAccount=AccountBAL.searchAccountBal(accountNo);
+		if(objAccount!=null)
+		{
+			System.out.println(" first name"+ objAccounts.getFirstName() );
+			System.out.println(" "+ objAccounts.get() );
+			System.out.println(" "+ objAccounts.get() );
+			System.out.println(" "+ objAccounts.get() );
+			System.out.println(" "+ objAccounts.get() );
+		}
+		
+		}
+
+}

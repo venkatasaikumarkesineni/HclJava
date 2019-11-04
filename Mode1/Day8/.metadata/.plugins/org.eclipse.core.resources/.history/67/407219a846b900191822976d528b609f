@@ -1,0 +1,8 @@
+package com.hcl.inventory;
+
+public class InventoryDAO {
+	public String generateStockId(){
+		
+	}
+
+}

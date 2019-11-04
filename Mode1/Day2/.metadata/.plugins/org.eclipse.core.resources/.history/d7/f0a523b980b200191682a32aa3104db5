@@ -1,0 +1,25 @@
+package com.hcl.boxing;
+
+public class BoxDemo {
+	public static void main(String[] args)
+	{
+		
+	int a=12;
+	double b=12.5;
+	String name="hcl";
+	/*boxing*/
+	object ob1=a;
+	object ob2=b;
+	object ob3=name;
+	/*unboxing*/
+	int a1=(Integer)obj1;
+	int b1=(Integer)obj2;
+	String name1=(String)ob3;
+	a1++;
+	System.out.println(a1);
+	System.out.println(b1);
+	System.out.println(name1);
+		
+	}
+
+}

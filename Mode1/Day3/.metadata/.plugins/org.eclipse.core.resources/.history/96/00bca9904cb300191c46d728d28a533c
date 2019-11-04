@@ -1,0 +1,17 @@
+package com.hcl.practice;
+public class VarArg
+{
+	public static void show(String...name){
+		for(String s:name){
+			System.out.print(s+" ");
+		}
+		System.out.println();
+	}
+
+public static void main(String s[])
+{
+	show();
+	show("sai","kumar","kumar");
+	show("pove","pora");
+}
+}

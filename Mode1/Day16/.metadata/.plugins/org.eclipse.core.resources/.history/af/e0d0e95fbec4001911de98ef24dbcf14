@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="get" action="WithDrawAccount.jsp">
+  <center>
+      Account No:
+      <input type="text" name="accno"/>
+      Withdraw Ammont:
+      <input type="text" name="withdraw"/>
+      <input type="submit" name="withdraw"/>
+  </center>
+</form>
+
+</body>
+</html>

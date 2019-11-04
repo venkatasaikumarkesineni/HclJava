@@ -1,0 +1,10 @@
+package com.hcl.java;
+
+public class StrFunctionsDemo {
+	public static void main(String[] args) {
+		String str="sai kumar";
+		System.out.println("length of the string is .."+ str.length());
+		System.out.println(" charecterat 3rd position is .."+ str.charAt(3));
+	}
+
+}

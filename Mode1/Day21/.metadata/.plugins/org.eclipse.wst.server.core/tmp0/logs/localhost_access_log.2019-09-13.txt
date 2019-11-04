@@ -1,0 +1,12 @@
+127.0.0.1 - - [13/Sep/2019:17:11:07 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:11:11 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 642
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:11:21 +0530] "GET /SpringMVCHibernateCRUD/newStudent HTTP/1.1" 200 2175
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:11:45 +0530] "POST /SpringMVCHibernateCRUD/saveStudent HTTP/1.1" 400 1011
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:11:59 +0530] "GET /SpringMVCHibernateCRUD/newStudent HTTP/1.1" 200 2175
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:00 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:25 +0530] "POST /SpringMVCHibernateCRUD/saveStudent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:25 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:29 +0530] "GET /SpringMVCHibernateCRUD/editStudent?id=1 HTTP/1.1" 200 2229
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:37 +0530] "POST /SpringMVCHibernateCRUD/saveStudent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:37 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 953
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:17:12:37 +0530] "POST /SpringMVCHibernateCRUD/saveStudent HTTP/1.1" 302 -

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.hcl.java.StringBuilder.java&apos; to &apos;StringBuilder1.java&apos;&#x0D;&#x0A;- Original project: &apos;DemoProject&apos;&#x0D;&#x0A;- Original element: &apos;com.hcl.java.StringBuilder.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.hcl.java.StringBuilder1.java&apos;" description="Rename compilation unit &apos;StringBuilder.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.hcl.java{StringBuilder.java" name="StringBuilder1.java" references="false" stamp="1564391475331" version="1.0"/>
+</session>

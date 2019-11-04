@@ -1,0 +1,10 @@
+package inventory;
+
+import com.hcl.bank.InventoryDAO;
+
+public class InventoryBAL {
+	public static int generateStockId(){
+		return new InventoryDAO().generateStockIdDao();
+	
+
+}

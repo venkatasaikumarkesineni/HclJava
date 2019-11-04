@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <center>
+  Employ Id:
+  <input type="text" name="EmployId" /><br/><br/>
+  Employ Name:
+  <input type="text" name="EmployName"/><br/><br/>
+  Hobbies:
+  <input type="checkbox" value="Playing Indoor games"/><br/><br/>
+  <input type="checkbox" value="Playing outdoor games"/><br/><br/>
+  <input type="checkbox" value="Singing"/><br/><br/>
+  <input type="checkbox" value="Dancing"/><br/><br/>
+  <input type="checkbox" value="Listing music"/><br/><br/>
+  <input type="checkbox" value="Reading Books"/><br/><br/>
+  
+ 
+  </center>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <form method="get" name="InfoServlet">
+ <table border="0">
+  <center>
+  <tr>
+  <td>
+  Employ Id:
+  <input type="text" name="EmployId" /><br/><br/>
+  <tr/>
+  <td/>
+  <tr>
+  <td>
+  Employ Name:
+  <input type="text" name="EmployName"/><br/><br/>
+  <tr/>
+  <td/>
+  <tr>
+  <td>
+  Hobbies:<br/><br/>
+  <input type="checkbox" name="hobbies" value="PlayingIndoorGames"/> playing indoor games<br/><br/>
+  <input type="checkbox" name="hobbies" value="PlayingOutdoorGames"/> playing outdoor games<br/><br/>
+  <input type="checkbox" name="hobbies" value="Singing"/>singing<br/><br/>
+  <input type="checkbox" name="hobbies"  value="Dancing"/>dancing<br/><br/>
+  <input type="checkbox" name="hobbies" value="ListingMusic"/>Listing music<br/><br/>
+  <input type="checkbox" name="hobbies" value="ReadingBooks"/>Reading books<br/><br/>
+  <tr/>
+  <td/>
+  <tr>
+  <td>
+  Gender:<br/><br/>
+  <input type="radio" name="gender" value="male"/>male<br/><br/>
+    <input type="radio" name="gender" value="female"/>female<br/><br/>
+    
+    <tr/>
+  <td/>
+  <tr>
+  <td>
+    city:
+    <input type="text" name="City"/><br/><br/>
+  <tr/>
+  <td/>  
+    <tr>
+  <td>
+  state:
+    <input type="text" name="Ctate"/><br/><br/>
+    <tr/>
+  <td/>
+    <tr>
+  <td>
+  country:
+    <input type="text" name="Country"/><br/><br/>
+ <tr/>
+  <td/>
+  </center>
+</table>
+</form>
+</body>
+</html>

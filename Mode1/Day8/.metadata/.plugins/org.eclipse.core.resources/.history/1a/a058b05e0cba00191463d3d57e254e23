@@ -1,0 +1,20 @@
+package com.hcl.inventory;
+public class InventoryBAL{
+	public static Inventory orderInventoryBal(String stockid,int order)
+	{
+		return new InventoryDAO().orderInventoryDao(stockid);
+	}
+	
+	public static Inventory searchInventory(String stockid)
+	{
+		return new InventoryDAO().searchInventoryDao(stockid);
+	}
+	public static String createInventory(Inventory obj)
+	{
+		return new InventoryDAO().createInventoryDao(obj);
+	}
+	public static String generateStockId(){
+		return new InventoryDAO().generateStockIdDao();
+	}
+
+}

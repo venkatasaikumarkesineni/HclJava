@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="get" action="DeptInsert.jsp">
+  <Center>
+     Department No:
+     <input type="text" name="deptno"/>
+     Department name:
+     <input type="text" name="dname"/>
+     location:
+     <input type="text" name="loc"/>
+     
+  </Center>
+</form>
+
+</body>
+</html>

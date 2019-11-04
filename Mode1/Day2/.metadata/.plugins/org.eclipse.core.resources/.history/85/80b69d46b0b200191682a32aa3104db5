@@ -1,0 +1,18 @@
+package com.hcl.boxing;
+
+public class C1 {
+	public void show()
+	{
+		System.out.println("showmethod");
+	}
+}
+class C2 extends C1
+{
+	public void display()
+	{
+		System.out.println("display method");
+	}
+}
+public class I
+
+

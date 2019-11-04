@@ -1,0 +1,15 @@
+package com.hcl.java;
+
+public class StrFunctionsDemo {
+	public static void main(String[] args) {
+		String str="saiiiii kumar";
+		System.out.println("length of the string is .."+ str.length());
+		System.out.println(" charecterat 3rd position is .."+ str.charAt(3));
+		System.out.println("sub string is"+ str.substring(3,5));
+	    String s1="hai";
+	    String s2="hai";
+	    System.out.println(s1.equals(s2));
+	}
+	
+
+}

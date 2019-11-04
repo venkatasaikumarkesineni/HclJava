@@ -1,0 +1,69 @@
+
+import com.hcl.java.StringBuilder1;
+
+public class SbDemo {
+	public StringBuilder show(char letter,String name,int length,int status,int code1)
+	{
+		StringBuilder  sbError=new StringBuilder();
+		boolean isvalid=true;
+		if(letter=='A')
+		{
+			sbError.append("should start with A"+"\r\n");
+		isvalid=false;
+		}
+		if(name.indexOf(' ')== -1)
+		{
+			sbError.append("name  contains both first name and last name"+ "\r\n");
+		      isvalid=false;
+		}
+		if(length<20)
+		{
+			sbError.append("it should contain 20letters" + "\r\n");
+		      isvalid=false;
+		}
+		if((status!=0) && (status!=1))
+		{
+			sbError.append("it should be either one or 0" + "\r\n");
+			isvalid=false;
+		}
+		if(code1<=6)
+		{
+			sbError.append(" it should have 6 charecters");
+		}
+		if(isvalid==true)
+		{
+			sbError.append("age is "+ letter);
+			sbError.append("name is " + name);
+			sbError.append("course " + length);
+			sbError.append("city" + status);
+			sbError.append("code " +code1);
+		}
+		return sbError;
+	}
+	public static void main(String[] args) {
+		char letter;
+		String name;
+		int length;
+	
+		int status;
+		String code;
+		int code1;
+		letter='A';
+		name="sai kumar";
+		length=name.length();
+		status=0;
+		code="sai";
+		code1=code.length();
+		
+		
+		SbExample obj1=new SbExample();
+		StringBuilder sb=obj1.show(letter,name,length,status,code1);
+		System.out.println(sb);
+		
+		//StringBuilder obj=new SbExample().show(age,name,course,city);
+
+		//System.out.println(obj);
+	}
+
+}
+

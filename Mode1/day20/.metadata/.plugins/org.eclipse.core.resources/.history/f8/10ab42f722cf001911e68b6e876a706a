@@ -1,0 +1,8 @@
+package com.hcl.college;
+
+public class SubjectCrude {
+	public static String insertSubject(){
+		
+	}
+
+}

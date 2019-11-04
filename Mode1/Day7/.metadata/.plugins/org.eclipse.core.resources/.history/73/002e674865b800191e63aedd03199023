@@ -1,0 +1,5 @@
+package com.hcl.mail;
+
+public class UserAuth {
+
+}

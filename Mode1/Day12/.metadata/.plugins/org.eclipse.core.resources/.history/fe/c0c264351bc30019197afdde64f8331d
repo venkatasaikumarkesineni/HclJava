@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="get" action="Productservlet">
+  <center>
+  <table border="0">
+   Id:
+   <input type="text" name="id"/>
+   Name:
+   <input type="text" name="name"/>
+   Quantity:
+   <input type="text" name="quantity"/>
+   UOM:
+   <input type="text" name="uom"/>
+   
+   <input type="submit" value="submit"/>
+   
+   
+  </table>
+  </center>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+package com.hcl.college;
+
+public class Subjects {
+	private int subId;
+	private int year;
+	private String instructor;
+	private String subject;
+	private int theory;
+	private int practical; 
+}

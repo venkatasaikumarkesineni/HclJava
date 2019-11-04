@@ -1,0 +1,19 @@
+package com.hcl.college;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+public class SubjectCrude {
+	public static String insertSubject(Subject s){
+		
+		Session s=HibernateUtil.getConnection();
+		Transaction t=s.beginTransaction();
+		s.save(s);
+		t.commit();
+		return "resord inserted";
+		
+		
+	}
+
+}

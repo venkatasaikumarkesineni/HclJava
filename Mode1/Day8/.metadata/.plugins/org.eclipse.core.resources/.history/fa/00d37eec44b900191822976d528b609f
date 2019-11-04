@@ -1,0 +1,8 @@
+package inventory;
+
+public class InventoryDAO {
+	public String generateStockId(){
+		
+	}
+
+}
